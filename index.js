@@ -23,3 +23,7 @@ function send(event)
 	
 var idInterwalu = window.setInterval(timer, 1000);
 showmassage.scrollTop = showmassage.scrollHeight; 
+
+const socket = io('localhost');
+
+console.log(socket);
