@@ -1,0 +1,19 @@
+<html>
+
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<script async src="index.js"></script>
+	</head>
+
+	<body>
+		<div id="container" class="container">
+			<input id="name" type="text" name="name">
+			<textarea id="showmassage" readonly="true" rows="25" cols="50"></textarea>
+			<input id="typemassage" onkeypress="send(event)" type="text" name="text">
+			<button onclick="send(event)">Wyślij</button>
+			<div id="timer">
+			</div>
+		</div>
+	</body>
+
+</html>
